@@ -54,6 +54,7 @@ const MovieImage = styled.img`
   width: 50px;
   height: 50px;
   margin: 20px;
+  border-radius: 5em;
 `;
 const SearchInput = styled.input`
   color: black;
@@ -118,11 +119,11 @@ function App() {
     <Container>
       <Header>
         <AppName>
-          <MovieImage src="https://o.remove.bg/downloads/694d577f-d825-4287-ae72-c5de4c8b044d/pngtree-white-movie-icon-png-image_4618956-removebg-preview.png" />
+          <MovieImage src="https://i.pinimg.com/1200x/ea/8d/11/ea8d11f1ffc6355b8a440106ce61d0f3.jpg" />
           Film Finder
         </AppName>
         <SearchBox>
-          <SearchIcon src="https://o.remove.bg/downloads/c96682c0-9518-43a3-84c5-87e4c86f09af/109-1092764_search-icon-icon-find-svg-hd-png-download-removebg-preview.png" />
+          <SearchIcon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/800px-Vector_search_icon.svg.png" />
           <SearchInput
             placeholder="Search Movie"
             value={searchQuery}
